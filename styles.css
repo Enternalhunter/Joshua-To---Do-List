@@ -1,0 +1,35 @@
+body {
+	font-family: 'Poppins',sans-serif;
+	background-color: black;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: left;
+	height: 85vh;
+}
+.container {
+	background-color: white;
+	padding: 20px;
+	
+	border-radius:6px;
+	text-align: center;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+li {
+	padding: 9px;
+	margin: 5px;
+	background-color: red;
+	border-radius: 6px;
+	cursor: pointer;
+}
+li.completed {
+	text-decoration: line-through;
+	color: green;
+}
+
+	
+	
